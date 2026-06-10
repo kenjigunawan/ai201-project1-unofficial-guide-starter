@@ -1,0 +1,22 @@
+Source: RateMyProfessors — Gary Gillespie (UCSD CSE)
+URL: https://www.ratemyprofessors.com/professor/63531
+
+[2021-11-20] Quality 1.0 | Difficulty 5.0
+Tags: Lots of homework, Skip class? You won't pass.
+BAD! Explaining the important concepts badly. Homework has ridiculous restriction and is hard to understand. No response from homework until the finalized score comes out (no resubmit chance). Could lose more than half of the points even though the code works perfectly in your own tests. Did not post any notes for you except for a mostly empty sheet.
+
+[2021-10-24] Quality 1.0 | Difficulty 5.0
+Tags: Lots of homework, Lecture heavy, Tough grader
+He's a great person, but the class itself is just the most unclear and difficult class I have ever taken. Literally everything in this class is confusing and insanely difficult, unless you go through a lottery system and get a good TA that will spend 2 hours just for you to complete your homework. It's so unnecessary to make a basic class like this.
+
+[2021-07-28] Quality 5.0 | Difficulty 4.0
+Tags: Respected, Lots of homework, Caring
+Gary is the best professor in the CS department, he cares about his students and helps them as much as he can, very nice person, his lectures are very clear and they are very helpful, the quiz questions come directly from the practice quiz, the class is time-consuming, but you learn a lot. Consider starting PAs early and going to the tutor's hours.
+
+[2021-06-15] Quality 3.0 | Difficulty 5.0
+Tags: Lots of homework, Participation matters, Tough grader
+Hard to discuss him, you love him or hate him. Lectures were pretty boring but discussion sections are absolutely necessary for PAs. PAs themselves are intensely paced and teach you to start early and often, otherwise it'll be a pain. Biweekly quizzes are really easy. Overall, Gary's nice but you really need to step up your work ethic to keep up.
+
+[2021-06-11] Quality 2.0 | Difficulty 5.0
+Tags: Lots of homework, Skip class? You won't pass., Extra credit
+One of the toughest CS courses I have ever taken. Say bye bye to all 10 of your weekends because you will be spending it on the programming assignments. Half the time you will spend trying to understand the writeup. You must attend the lecture and discussion sessions to even have a chance at completing the assignments in time for extra credit.

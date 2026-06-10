@@ -9,27 +9,33 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+Student reviews of UCSD Computer Science & Engineering (CSE) professors, collected from individual RateMyProfessors profiles. Official UCSD sources — the course catalog, CSE faculty pages, and even CAPE — describe what a course covers and what a professor researches, but say very little about teaching style, exam difficulty, grading harshness, or how a professor actually treats students day to day. Reviews on RateMyProfessors fill that gap, but they sit one professor per page with no way to ask cross-cutting questions like "which CSE professor is best for an intro class?" or "who gives the heaviest workload?" — which is exactly the gap this system is meant to close.
+
+The system should be able to answer questions like:
+1. "What do students say about Niema Moshiri's exams and workload?"
+2. "Is Joseph Pasquale a good professor for OS-style classes?"
+3. "Which UCSD CSE professors are described as caring or approachable in office hours?"
+4. "Which professors are flagged as tough graders or having heavy homework?"
+5. "What do students think of Rose Yu's lecture style?"
 
 ---
 
 ## Documents
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
+Ten RateMyProfessors profile pages for UCSD CSE faculty. Each page is a thread of dated student reviews (rating, difficulty, tags, free-text comments) for one professor, which gives the system a per-professor "voice" and lets retrieval surface cross-cutting patterns across professors.
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | RateMyProfessors — Julian McAuley | UCSD CSE faculty; ML / recommender systems; reviews discuss fairness, lecture style, workload | https://www.ratemyprofessors.com/professor/2070821 |
+| 2 | RateMyProfessors — Joseph Pasquale | UCSD CSE faculty; OS / networking; long history of reviews spanning many quarters | https://www.ratemyprofessors.com/professor/528482 |
+| 3 | RateMyProfessors — Rose Yu | UCSD CSE faculty; ML; reviews focus on lecture clarity and office hours | https://www.ratemyprofessors.com/professor/2879115 |
+| 4 | RateMyProfessors — Daniele Micciancio | UCSD CSE faculty; cryptography / theory; reviews split between "caring" and "very difficult" | https://www.ratemyprofessors.com/professor/449659 |
+| 5 | RateMyProfessors — Hao Su | UCSD CSE faculty; computer vision / graphics; reviews discuss curves and exam difficulty | https://www.ratemyprofessors.com/professor/2446901 |
+| 6 | RateMyProfessors — Joseph Politz | UCSD CSE teaching faculty; intro programming / PL; reviews discuss handouts and weekly workload | https://www.ratemyprofessors.com/professor/2284684 |
+| 7 | RateMyProfessors — Gary Gillespie | UCSD CSE teaching faculty; reviews flag heavy homework and tough grading | https://www.ratemyprofessors.com/professor/63531 |
+| 8 | RateMyProfessors — Niema Moshiri | UCSD CSE associate teaching professor; computational biology; teaches intro CS courses | https://www.ratemyprofessors.com/professor/2279559 |
+| 9 | RateMyProfessors — Mia Minnes | UCSD CSE teaching professor; vice-chair undergrad ed; theory courses; reviews discuss approachability | https://www.ratemyprofessors.com/professor/1516842 |
+| 10 | RateMyProfessors — Paul Cao | UCSD CSE lecturer; intro CS; reviews discuss lecture clarity and student support | https://www.ratemyprofessors.com/professor/2772323 |
 
 ---
 

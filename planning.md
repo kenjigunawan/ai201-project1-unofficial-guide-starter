@@ -64,6 +64,10 @@ Expected chunk count: 10 professors × ~20–30 reviews each ≈ **200–300 chu
 
 **Reasoning on top-k:** Many useful queries here are comparative ("which professor is best for intro CS?") and need evidence from *different* professors' reviews, not three near-duplicates from the same page. k=5 gives the LLM enough breadth to compare while staying tight enough that the prompt isn't drowned in marginally-relevant chunks. If retrieval distance scores during Milestone 4 are consistently > 0.5 on the top result, I'll revisit k upward; if the LLM is being pulled off-topic by chunk 4 or 5, I'll revisit downward.
 
+**Embedding-input change made during Milestone 4 (recorded for honesty):** Each chunk's *stored* document is unchanged — still the clean review text. But what gets *fed to the encoder* is `"<Professor Display Name>: <review text>"` instead of just `<review text>`. Without this, the first smoke-test query ("Is Julian McAuley considered a fair grader?") returned Paul Cao at rank 1 because both reviews mentioned lectures and fair grading but the encoder had no signal about which professor was being asked about. Anticipated challenge #3 above predicted exactly this failure mode. After the change, all three test queries return the correct professor at rank 1 with top distances 0.25–0.38.
+
+**Tradeoff from that change:** Each chunk's embedding is now strongly anchored to one professor's name-space, so cross-professor queries ("which CSE professor has the lightest workload?") will retrieve less broadly than they would with name-agnostic embeddings. The 5 evaluation questions in this plan all name a specific professor, so the tradeoff is favorable for this corpus — but it's a real limitation worth flagging in the README's failure-case discussion.
+
 **Production tradeoff reflection:** If cost weren't a constraint and this were going to real students, I'd consider:
 
 - **OpenAI `text-embedding-3-small`** (1536-dim) — meaningfully higher MTEB performance and an 8k context window, so even longer reviews embed cleanly. Costs ~$0.02/1M tokens, which is trivial at the scale of a per-school RAG.
